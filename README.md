@@ -22,7 +22,7 @@
 * pymysql
 * h5py
 * tqdm
-* pymysql
+* bs4
 * (Optional) java 1.7+
 * (Optional) PyKoSpacing
 * (Optional) MultiTSNE (for visualization)
