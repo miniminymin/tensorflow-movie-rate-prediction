@@ -40,6 +40,7 @@
 ### 1.1 Installing Dependencies
     # Necessary
     $ brew install mysql
+    $ brew install mySQLdb    
     $ sudo python3 -m pip install -r requirements.txt
     # Optional
     $ sudo python3 -m pip install -r opt_requirements.txt
