@@ -1,14 +1,12 @@
+원본 github : https://github.com/kozistr/movie-rate-prediction
+
 # Movie Rate Prediction
 영화 평점 예측 with Tensorflow
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/kozistr/movie-rate-prediction.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/kozistr/movie-rate-prediction/alerts/)
-[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/kozistr/movie-rate-prediction.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/kozistr/movie-rate-prediction/context:python)
-
-## Environments
-* OS  : Ubuntu 16.04+ / Windows 10
-* CPU : any (quad core ~)
-* GPU : GTX 1060 6GB ~
+## Personal Environments
+* OS  : MacOS Monterey 12.6 / MacBook Pro 2019
+* CPU : 2.6 GHz 6코어 Intel Core i7
+* GPU : AMD Radeon Pro 5300M 4GB
 * RAM : 16GB ~
 * Library : TF 1.x with CUDA 9.0~ + cuDNN 7.0~
 
@@ -41,11 +39,12 @@
 ## Usage
 ### 1.1 Installing Dependencies
     # Necessary
+    $ brew install mysql
     $ sudo python3 -m pip install -r requirements.txt
     # Optional
     $ sudo python3 -m pip install -r opt_requirements.txt
 ### 1.2 Configuration
-    # In ```config.py```, there're lots of params for scripts. plz re-setting
+    # ```config.py```, 개인 환경에 맞게 스크립트의 파라미터 reset이 필요합니다.
 ### 2. Parsing the DataSet
     $ python3 movie-parse.py
 ### 3. Making DataSet DB
